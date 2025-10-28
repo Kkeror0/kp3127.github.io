@@ -1,0 +1,69 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r}
+# Data Cleaning
+data("instacart")
+set.seed(1)
+ic <- instacart %>% 
+  janitor::clean_names() %>%
+  drop_na() %>%
+  sample_n(min(5000, nrow(instacart))) %>% 
+  mutate(
+    order_dow = factor(order_dow,
+      levels = 0:6,
+      labels = c("Sun","Mon","Tue","Wed","Thu","Fri","Sat")
+    ),
+    reordered = factor(reordered,
+      levels = c(0,1),
+      labels = c("First-time","Reordered")
+    )
+  )  
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+ic |>
+  mutate(text_label = str_c("Order ID:", order_id, "\nOrdered Status: ", reordered)) |> 
+  plot_ly(
+    x = ~order_number, y = ~order_hour_of_day, type = "scatter", mode = "markers",
+    color = ~order_dow, text = ~text_label, alpha = 0.5)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+ic |> 
+  count(department) |> 
+  mutate(department = fct_reorder(department, n)) |>   
+  plot_ly(x = ~department, y = ~n, color = ~department, type = "bar", colors = "viridis")
+
+```
+
+### Chart C
+
+```{r}
+ic |> 
+  plot_ly(y = ~order_hour_of_day, color = ~order_dow, type = "box", colors = "viridis")
+```
+

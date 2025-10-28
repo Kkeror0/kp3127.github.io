@@ -7,12 +7,52 @@ output:
     theme: cerulean
 ---
 
-# Hi, I'm Keyu
+# KEYU PAN, MPH
+New York, NY | (347) 544-1290 | kp3127@cumc.columbia.edu 
 
-I'm a graduate student in Epidemiology Department at Columbia University's Mailman School of Public Health, focusing on public health data science and biostatistical modeling.  
+# EDUCATION
+**COLUMBIA UNIVERSITY**, MAILMAN SCHOOL OF PUBLIC HEALTH.   
 
-Beyond academia, I’m also passionate about the intersection of biomedical research and quantitative finance — applying analytical thinking to both public health and investment problems.
+Master of Public Health (MPH) | Epidemiology | Expected May 2026   
 
-This website serves as a portfolio of my academic and professional work for **P8105: Data Science I**, including reproducible R analyses, dashboards, and course projects.
+Certificate in Applied Biostatistics and Public Health Data Science.   
 
-# If you want to know more about me, click on the navbar above for more info!!! 
+**Zhejiang University**, College of Pharmaceutical Sciences. 
+
+Bachelor of Science | Pharmacy | June 2024.   
+
+[Thesis Published](https://pubs.rsc.org/en/content/articlelanding/2023/ay/d2ay01805e)
+
+# PROFESSIONAL EXPERIENCE
+**China Zheshang Bank**, Hangzhou, China
+
+Investment Bank Intern | Aug 2025 - Sept. 2025
+
+**Fosun Health Capital**, Shanghai, China
+
+Assistant Investment Analyst | June 2025 - Aug. 2025
+
+**Shangcheng District CDC**, Hangzhou, Chin
+
+Epidemiology Intern | July 2022 - Sept. 2022
+
+
+# RESEARCH EXPERIENCE
+**Breast Cancer Research on Hedyotis diffusa Extract based on metabolomics.**   
+Graduation Project | Dr. Tengfei Xu Lab, Zhejiang University |  Oct. 2023 - May 2024
+
+**Microneedle Transdermal Drug Delivery System.**  
+Research Assistant | Dr. Zhen Gu Lab, Zhejiang University | July 2023 - Sept. 2023 
+
+**Research on Rapid Screening of Effective Substances of Traditional Chinese Medicine for Anti-altitude Reaction.**   
+Team Leader | ZJU Student Research Training Project Program | Mar. 2022 - May 2023
+
+
+# VOLUNTEER LEADERSHIP
+**Director**, Zhejiang University Youth Volunteer Guidance Center; contributed 165+ hours of volunteer services.   
+**Core member**, Zhejiang University Student Union
+
+# SKILLS
+**Technical Programs**: Python, SAS, R, MATLAB, SQL, STATA, MS Office (Word, Excel, PowerPoint), Origin, GraphPad Prism.   
+**Language**: Bilingual in Chinese/Mandarin. Fluent in English.
+
