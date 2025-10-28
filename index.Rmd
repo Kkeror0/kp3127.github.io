@@ -1,5 +1,5 @@
 ---
-title: "My awesome website"
+title: "Welcome!!!"
 output: 
   html_document:
     toc: true
@@ -7,6 +7,10 @@ output:
     theme: cerulean
 ---
 
-# This is Kyle's awesome website
+# Hi, I'm Keyu
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+I'm a graduate student in Epidemiology Department at Columbia University's Mailman School of Public Health, focusing on public health data science and biostatistical modeling.  
+
+Beyond academia, I’m also passionate about the intersection of biomedical research and quantitative finance — applying analytical thinking to both public health and investment problems.
+
+This website serves as a portfolio of my academic and professional work for **P8105: Data Science I**, including reproducible R analyses, dashboards, and course projects.
